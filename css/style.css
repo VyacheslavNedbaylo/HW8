@@ -138,7 +138,6 @@ font-family: 'Roboto', sans-serif;
   }
 .s5{
  width: 1110px;
- background-color: red;
  padding-bottom: 120px;
   }
 .our{
@@ -186,4 +185,15 @@ footer{
   display: flex;
   gap: 20.7px;
   justify-content: center;
+  }
+  .sn a{
+    display: block;
+    line-height: 14px;
+  }
+  .c{
+  font-size: 16px; 
+  font-weight: 500;
+  line-height: 18.75px;
+  padding-top: 15.22px;
+  padding-bottom: 50px;
   }
