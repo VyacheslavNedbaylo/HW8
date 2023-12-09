@@ -1,0 +1,209 @@
+@import url(reset.css);
+
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper{
+display: flex;
+flex-flow: column;
+height: 100%;
+}
+.header{
+  background-color: #81A36B; 
+  height: 80px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  padding: 21px 0;
+}
+.header-menu {
+  display: flex;
+  gap: 30px;
+  padding:25px 0; 
+  }
+.header-menu a{
+  font-weight: 400;
+  text-decoration: none;
+  color: #161616;
+  font-size: 18px;
+  }
+    
+.main{
+  flex-grow: 1;
+  background-color: #D8D8D6;
+}
+h1{
+  font-weight: 400;
+  font-size: 62px;
+  font-family: 'Architects Daughter',sans-serif;
+  padding-top: 174px;
+  padding-bottom: 41px;
+  }
+h2{
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'Architects Daughter',sans-serif;
+}
+h3{
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+article{
+  font-weight: 400;
+  font-size: 18px;
+}
+.s1{
+  height: 670px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn1{
+width:197px;
+height:60px;
+background-color: #81A36B;
+border-radius: 6px;
+border: #81A36B solid;
+font-weight: 400;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+
+}
+.btn2{
+  width:157px;
+  height:60px;
+  background-color: #D8D8D6;
+  border-radius: 6px;
+  border: #81A36B solid;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.art1{
+  width: 540px;
+  padding-bottom: 20px;
+}
+.s2{
+  width:540px;
+  text-align: center;
+}
+.about{
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.art2{
+  padding-bottom: 120px;
+}
+.s3{
+  width: 1440px;
+  height: 282px;
+  background-color: #81A36B; 
+  margin: 0 auto;
+  }
+.mid{
+  display: flex;
+  justify-content: space-between;
+  padding: 78px 0;
+  }
+
+.s4{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding:120px 0;
+  }
+.how{
+  padding: 180px 0 50px 98px;
+}
+.art3{
+  width:540px;
+  text-align:justify;
+  }
+.s5{
+ width: 1110px;
+ background-color: red;
+ padding-bottom: 120px;
+  }
+.our{
+  text-align: center;
+  padding-bottom:50px;
+}
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card{
+  width:350px;
+  height:510px;
+  background-color: #81A36B;
+  border-radius: 6px;
+  padding: 15px 15px 0px;
+  }
+.card a{
+  text-decoration: none;
+  color: #161616;
+  }
+h4{
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  padding: 23px 84px 40px;
+}
+
+.footer{
+ background-color: #81A36B; 
+ height: 363px;
+ text-align: center;
+ 
+ }
+ .amelia{
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Architects Daughter',sans-serif;
+  padding-top: 50px;
+  }
+.footer-text{
+  font-size: 18px; 
+  padding-bottom: 15px;
+}
+.sn{
+  display: flex;
+  gap: 20.7px;
+  justify-content: center;
+  }
+  .sn a{
+    display: block;
+    line-height: 14px;
+  }
+  .c{
+  font-size: 16px; 
+  font-weight: 500;
+  line-height: 18.75px;
+  padding-top: 15.22px;
+  padding-bottom: 50px;
+  }
+
+  
+
+
+
+  
+  
