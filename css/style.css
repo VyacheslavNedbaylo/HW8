@@ -172,4 +172,18 @@ footer{
   height: 363px;
   text-align: center;
 }
- 
+.amelia{
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Architects Daughter',sans-serif;
+  padding-top: 50px;
+  }
+.footer-text{
+  font-size: 18px; 
+  padding-bottom: 15px;
+}
+.sn{
+  display: flex;
+  gap: 20.7px;
+  justify-content: center;
+  }
